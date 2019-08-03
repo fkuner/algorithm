@@ -2,8 +2,6 @@
 #include <string>
 #include <vector>
 #include <cstring>
-#include <ctype.h>
-#include <string.h>
 using namespace std;
 bool isMatch(string s1,string s2,vector<string> &query_temp);
 bool isInt(string s);
@@ -12,7 +10,7 @@ bool isPath(string s);
 bool isNumber(char c);
 bool isSame(string s1,string s2);
 bool hasPath(vector<string> s);
-int main(int argc, char *argv[]) {
+int main() {
 	int n,m,flag;
 	cin>>n>>m; 
 	getchar();  

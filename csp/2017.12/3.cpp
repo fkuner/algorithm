@@ -4,6 +4,8 @@
 #include <vector>
 #include <map>
 #include <utility>
+#include <cstdio>
+#include <string.h>
 using namespace std;
 typedef struct Time{
 	int year;
